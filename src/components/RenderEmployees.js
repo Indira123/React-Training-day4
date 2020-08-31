@@ -32,7 +32,7 @@ class RenderEmployee extends React.Component {
                         Unmount Employee component
       </button>
                     <button className='btn btn-primary' onClick={() => this.mountEmployeeComp("props")}>
-                        change Props
+                        Change Props
       </button>
                     <DisplayProps propsData={this.state.propsData} />
                     <div id="employee"></div>
